@@ -14,6 +14,18 @@
     --text: var(--color-text);
 }
 
+/* title font */
+@font-face {
+    font-family: 'Aboreto Regular';
+    src: url('fonts/webfontkit-20230130-210936/aboreto-regular-webfont.woff') format('woff');
+}
+
+/* body text */
+@font-face {
+    font-family: 'Poiret One';
+    src: url('fonts/webfontkit-20230130-211844/poiretone-regular-webfont.woff') format('woff');
+}
+
 /* unvisited link */
 a:link {
     color: var(--color-text);
@@ -30,12 +42,16 @@ body {
     background-color: var(--background);
     margin: 1rem 1rem;
     padding: .5rem;
-
 }
 
 h1 {
-    font-family: 'Courier New';
+    font-family: 'Aboreto Regular' ;
     font-style: normal;
+    color: var(--color-text);
+}
+
+p {
+    font-family: 'Poiret One';
 }
 
 .menu {
@@ -63,5 +79,5 @@ h1 {
   
   .menu a {
    font-size: 14px;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Poiret One';
   }
