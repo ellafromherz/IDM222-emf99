@@ -40,7 +40,7 @@ a:visited {
 
 body {
     background-color: var(--background);
-    margin: 1rem 1rem;
+    margin: 0.5rem;
     padding: .5rem;
 }
 
