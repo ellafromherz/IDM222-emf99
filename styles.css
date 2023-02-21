@@ -32,7 +32,16 @@ a:visited {
 
   body {
     background-color: var(--color-screen);
-    margin: 0;
+    margin: 1rem 0rem 10rem 0rem;
+    padding: 1rem;
+
+  }
+
+  @media (max-width: 650px) {
+    body {
+      margin: 1rem 0rem 5rem 0rem;
+      padding: .25rem;
+    }
   }
 
   /*navigation*/
@@ -88,6 +97,7 @@ h2 {
     font-family: 'Aboreto Regular' ;
     font-style: normal;
     font-size: 34px;
+    text-align: center;
     color: var(--color-text);
 }
 
@@ -100,6 +110,7 @@ h3 {
   font-family: 'Aboreto Regular' ;
   font-style: normal;
   font-size: 24px;
+  text-align: center;
   color: var(--color-text);
 }
 
@@ -258,6 +269,17 @@ p {
    }
 
 
+   /*gallery*/
+  .learnMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poiret One';
+    margin: 1rem 1rem;
+    padding: .5rem;
+  }
+
+
   /*images*/
   .aboutmepic {
     display: flex;
@@ -274,3 +296,5 @@ p {
     margin: 1rem 1rem;
     padding: .5rem;
  }
+
+ 
