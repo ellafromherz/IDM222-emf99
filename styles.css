@@ -37,13 +37,6 @@ a:visited {
 
   }
 
-  /*@media (max-width: 650px) {
-    body {
-      margin: 1rem 0rem 5rem 0rem;
-      padding: .25rem;
-    }
-  }*/
-
   /*navigation*/
   header {
     align-items: center;
@@ -122,22 +115,6 @@ p {
     line-height: 1.6;
  }
 
- /*@media (max-width: 650px) {
-  h1 {
-    font-size: 24px;
-  } 
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 18px;
-    margin: 2rem;
-  }
-  p {
-    font-size: 16px;
-  }
-}*/
-
 
 /*menu button*/
  button {
@@ -148,11 +125,6 @@ p {
     font-family: 'Poiret One';
     font-size: 24px;
  }
- /*@media (max-width: 650px) {
-  button {
-    font-size: 16px;
-  }
- }*/
 
  button:hover {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 10px 50px 0 rgba(0,0,0,0.19);
@@ -256,18 +228,6 @@ p {
     padding: .5rem;
   }
 
-  /*@media (max-width: 650px) {
-   p.about {
-      font-size: 16px;
-    }
-    .skillsList li {
-      font-size: 16px;
-    }
-    h3.skills {
-      font-size: 18px;
-    }
-   }*/
-
 
    /*gallery*/
   .learnMore {
@@ -300,8 +260,6 @@ p {
     margin: 1rem 1rem;
     padding: .5rem;
  }
-
-
 
  @media (min-width: 650px) {
   .idm212-8 {
