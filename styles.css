@@ -218,14 +218,14 @@ p {
     line-height: 1.6;
   }
 
-  .aboutMe {
+  .aboutMe, .PSinfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  
+
 
   .skillsList li {
     font-size: 20px;
