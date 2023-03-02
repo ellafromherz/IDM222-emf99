@@ -270,20 +270,21 @@ p {
     padding: .5rem;
  }
 
+  .psContainer , .designContainer , .galleryContainer1 , .galleryContainer2 {
+   display: grid;
+   grid-template-columns: repeat(2, .5fr);
+   grid-template-rows: repeat(3, .5fr);
+   margin: 1rem;
+   padding: 1rem;
+  }
+  
+
  @media (min-width: 650px) {
+  
   .idm212-8 {
     visibility: hidden;
   }
 
-  picture {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: .5rem;
-    padding: .5rem;
-  }
-  
  }
 
 
@@ -334,5 +335,13 @@ p {
   .idm212-8 {
     visibility: visible;
   }
+
+  .psContainer , .designContainer , .galleryContainer1 , .galleryContainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
 
  }
