@@ -44,7 +44,6 @@ body {
 .main {
   background-image: url(images/stars.png);
   background-repeat:repeat-y
-  background-size: 1280px 2840px;
 }
 
 .dot {
