@@ -1,6 +1,8 @@
 :root {
     --color-screen: #f2f2e8;
     --color-text: #292525;
+    --color-accent: #FFFAFA;
+    --color-pink: #F97E89;
 
     --background: var(--color-screen);
     --text: var(--color-text);
@@ -18,6 +20,12 @@
     src: url('fonts/webfontkit-20230130-211844/poiretone-regular-webfont.woff') format('woff');
 }
 
+/* body text , letter spacing 15px */ 
+@font-face {
+  font-family: 'Work Sans';
+  src: url('fonts/webfontkit-20230303-102359/worksans-variablefont_wght-webfont.woff') format('woff');
+}
+
 /* unvisited link */
 a:link {
     color: var(--color-text);
@@ -29,13 +37,36 @@ a:visited {
     color: var(--color-text);
     text-decoration: none;
 }
+body {
+  background-color: var(--color-screen);
+}
 
-  body {
-    background-color: var(--color-screen);
-    margin: 1rem 0rem 10rem 0rem;
-    padding: 1rem;
+.main {
+  background-image: url(images/stars.png);
+  background-repeat:repeat-y
+  background-size: 1280px 2840px;
+}
 
-  }
+.dot {
+  height: 30rem;
+  width: 30rem;
+  background-color: #FFFAFA;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.portal1 {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
   /*navigation*/
   header {
@@ -70,6 +101,7 @@ a:visited {
     background-color: var(--color-screen);
   }
 
+  
 /*text*/
   h1 {
     justify-content: flex-start;
@@ -89,7 +121,7 @@ h2 {
     padding: 1rem;
     font-family: 'Aboreto Regular' ;
     font-style: normal;
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
     color: var(--color-text);
 }
@@ -104,15 +136,16 @@ h3 {
   font-style: normal;
   font-size: 24px;
   text-align: center;
-  color: var(--color-text);
+  color: var(--color-pink);
 }
 
 p {
-    font-family: 'Poiret One';
-    font-size: 20px;
+    font-family: 'Work Sans';
+    letter-spacing: .15rem;
+    font-size: 1.25rem;
     margin: 1rem 2rem;
     padding: 1rem;
-    line-height: 1.6;
+    line-height: 1.7;
     max-width: 60ch;
  }
 
@@ -124,7 +157,7 @@ p {
     border-radius: 12px;
     color: var(--color-text);
     font-family: 'Poiret One';
-    font-size: 24px;
+    font-size: 	1.875rem;
  }
 
  button:hover {
@@ -153,12 +186,9 @@ p {
     margin: 1rem 1rem;
     padding: .5rem;
     row-gap: 1rem;
-  }
-  
-.pages a {
-   font-size: 18px;
-   font-family: 'Poiret One';
-   
+    font-size: 1.125rem;
+    font-family: 'Work Sans';
+    letter-spacing: .15rem;
   }
 
 .contact {
@@ -181,13 +211,49 @@ p {
     margin: 1rem 1rem;
     padding: .5rem;
     row-gap: 1rem;
-  }
-  
-.contact a {
-   font-size: 16px;
-   font-family: 'Poiret One';
+    font-size: 1rem;
+    font-family: 'Work Sans';
+    letter-spacing: .15rem;
   }
 
+  /*home page*/
+  .pshp {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .mxmhp {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .vssthp {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .createZenPic , .mixedMediaCollage {
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 1rem 1rem 1rem 0rem;
+  }
+
+  .designCollage {
+    margin: 1rem 0rem 1rem 1rem;
+    padding: 1rem 0rem 1rem 1rem;
+  }
+
+  .text1 {
+    display: flex;
+    justify-content: center;
+  }
+  .text2 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .text3 {
+    display: flex;
+    justify-content: center;
+  }
 
   /*about page*/
   h3.skills {
@@ -225,11 +291,10 @@ p {
     align-items: center;
   }
 
-
-
   .skillsList li {
-    font-size: 20px;
-    font-family: 'Poiret One';
+    font-size: 1.25rem;
+    font-family: 'Work Sans';
+    letter-spacing: .15rem;
     list-style: circle;
   }
 
@@ -238,12 +303,14 @@ p {
     padding: .5rem;
   }
 
+
    /*gallery*/
   .learnMore {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Poiret One';
+    font-family: 'Work Sans';
+    letter-spacing: .15rem;
     margin: 1rem 1rem;
     padding: .5rem;
   }
