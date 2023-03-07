@@ -11,19 +11,19 @@
 /* title font */
 @font-face {
     font-family: 'Aboreto Regular';
-    src: url('fonts/webfontkit-20230130-210936/aboreto-regular-webfont.woff') format('woff');
+    src: url('fonts/aboreto-regular-webfont.woff2') format('woff2');
 }
 
 /* body text */
 @font-face {
     font-family: 'Poiret One';
-    src: url('fonts/webfontkit-20230130-211844/poiretone-regular-webfont.woff') format('woff');
+    src: url('fonts/poiretone-regular-webfont.woff2') format('woff2');
 }
 
 /* body text , letter spacing 15px */ 
 @font-face {
   font-family: 'Work Sans';
-  src: url('fonts/webfontkit-20230303-102359/worksans-variablefont_wght-webfont.woff') format('woff');
+  src: url('fonts/worksans-variablefont_wght-webfont.woff2') format('woff2');
 }
 
 /* unvisited link */
@@ -44,27 +44,6 @@ body {
 .main {
   background-image: url(images/stars.png);
   background-repeat:repeat-y
-}
-
-.dot {
-  height: 30rem;
-  width: 30rem;
-  background-color: #FFFAFA;
-  position: relative;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  display: flex;
-  justify-content: flex-start;
-  
-}
-
-.portal1 {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  top: 0;
-  left: 0;
 }
 
   /*navigation*/
@@ -144,7 +123,7 @@ p {
     font-size: 1.25rem;
     margin: 1rem 2rem;
     padding: 1rem;
-    line-height: 1.7;
+    line-height: 1.6;
     max-width: 60ch;
  }
 
@@ -157,6 +136,7 @@ p {
     color: var(--color-text);
     font-family: 'Poiret One';
     font-size: 	1.875rem;
+    padding: .75rem;
  }
 
  button:hover {
@@ -189,30 +169,37 @@ p {
     font-family: 'Work Sans';
     letter-spacing: .15rem;
   }
+  .pages li:hover {
+    color: var(--color-pink);
+  }
 
 .contact {
     display: flex;
     align-items: center;
-    column-gap: 1rem;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
     list-style: none;
-    margin: 3rem 1rem;
+    margin: 20rem 1rem 1rem 1rem;
     padding: .5rem;
     row-gap: 1rem;
   }
   
 .contact li {
-    display: flex;
-    align-items: center;
-    column-gap: 1rem;
-    flex-direction: column;
-    list-style: none;
-    margin: 1rem 1rem;
-    padding: .5rem;
-    row-gap: 1rem;
-    font-size: 1rem;
-    font-family: 'Work Sans';
-    letter-spacing: .15rem;
+  display: flex;
+  align-items: center;
+  row-gap: 0.5rem;
+  flex-direction: row;
+  list-style: none;
+  margin: 0.5rem 5rem 0.5rem 5rem;
+  padding: 0.5rem;
+  row-gap: 1rem;
+  font-size: .9rem;
+  font-family: 'Work Sans';
+  letter-spacing: .15rem;
+}
+
+  .contact:hover {
+    color: var(--color-pink);
   }
 
   /*home page*/
