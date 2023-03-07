@@ -43,7 +43,7 @@ body {
 
 .main {
   background-image: url(images/stars.png);
-  background-repeat:repeat-y
+  background-repeat: repeat;
 }
 
   /*navigation*/
@@ -196,7 +196,7 @@ p {
   font-size: .9rem;
   font-family: 'Work Sans';
   letter-spacing: .15rem;
-}
+  }
 
   .contact:hover {
     color: var(--color-pink);
@@ -245,8 +245,8 @@ p {
   h3.skills {
     display: flex;
     justify-content: flex-start;
-    margin: 3rem 2rem 1rem 2rem;
-    padding: .5rem .5rem .5rem .5rem;
+    margin: 1rem .5rem .25rem .5rem;
+    padding: .5rem;
     font-family: 'Aboreto Regular' ;
     font-style: normal;
     color: var(--color-text);
@@ -264,7 +264,7 @@ p {
   }
 
   p.about {
-    margin:  2rem;
+    margin:  .5rem;
     padding: .5rem;
     font-size: 20px;
     line-height: 1.6;
@@ -321,16 +321,16 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 1rem;
-    padding: .5rem;
+    margin: .25rem;
+    padding: .25rem;
   }
 
   picture {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 1rem;
-    padding: .5rem;
+    margin: .25rem;
+    padding: .25rem;
  }
 
   .psContainer , .designContainer , .galleryContainer1 , .galleryContainer2 {
