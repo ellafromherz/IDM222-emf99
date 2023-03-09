@@ -87,7 +87,7 @@ body {
     padding: 1rem;
     font-family: 'Aboreto Regular' ;
     font-style: normal;
-    font-size: 38px;
+    font-size: 46px;
     color: var(--color-text);
 }
 
@@ -407,7 +407,7 @@ p {
     margin: 1rem 0rem 5rem 0rem;
     padding: .25rem;
   }
-  
+
   h1 {
     font-size: 24px;
   } 
@@ -472,8 +472,8 @@ p {
     color: var(--color-text);
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
-    padding: .5rem;
+    margin: .25rem 1rem .25rem .25rem;
+    padding: .25rem;
   }
 
  }
