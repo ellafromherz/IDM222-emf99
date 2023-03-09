@@ -39,6 +39,7 @@ a:visited {
 }
 body {
   background-color: var(--color-screen);
+  overflow-x: hidden;
 }
 
 .main {
@@ -474,6 +475,10 @@ p {
     justify-content: space-between;
     margin: .25rem 1rem .25rem .25rem;
     padding: .25rem;
+  }
+
+  .main2 {
+    overflow-x: hidden;
   }
 
  }
