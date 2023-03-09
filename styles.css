@@ -466,4 +466,14 @@ p {
     padding: .5rem;
   }
 
+  header {
+    align-items: center;
+    background-color: var(--color-screen);
+    color: var(--color-text);
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: .5rem;
+  }
+
  }
