@@ -203,7 +203,13 @@ p {
     color: var(--color-pink);
   }
 
+  
   /*home page*/
+  .main2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .pshp {
     display: flex;
     justify-content: flex-start;
@@ -229,16 +235,16 @@ p {
     padding: 1rem 0rem 1rem 1rem;
   }
 
-  .text1 {
+  .pshpText, .mxmhpText {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
-  .text2 {
+  .vssthpText {
     display: flex;
-    justify-content: flex-start;
-  }
-  .text3 {
-    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 
