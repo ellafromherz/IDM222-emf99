@@ -461,4 +461,9 @@ p {
     border-bottom-right-radius: 5rem;
   }
 
+  .psbox, .mxmbox, .vsstbox {
+    margin: 1rem;
+    padding: .5rem;
+  }
+
  }
