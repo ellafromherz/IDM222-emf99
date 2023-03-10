@@ -42,6 +42,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .main {
   background-image: url(images/stars.png);
   background-repeat: repeat;
@@ -486,5 +487,15 @@ p {
   .main2 {
     overflow-x: hidden;
   }
+
+  .pshp , .mxmhp {
+    display: flex;
+    flex-direction: column;
+  }
+  .vssthp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
 
  }
