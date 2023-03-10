@@ -384,6 +384,7 @@ p {
     max-height: 37.5rem;
     margin: 1rem 1rem 5rem 1rem;
     padding: 1rem;
+    overflow-x: hidden;
   }
 
   .screen {
@@ -396,17 +397,61 @@ p {
   .screen img {
     background-color: white;
   }
+
+
+  .psContainer2 {
+    overflow: auto;
+    max-height: 37.5rem;
+    margin: 1rem 1rem 5rem 1rem;
+    padding: 1rem;
+    overflow-x: hidden;
+  }
+
+  .screen2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   
+  .screen2 img {
+    background-color: white;
+  }
 
 
 
  @media (min-width: 650px) {
   
-  .idm212-8 , .idm212-9 {
+  .psContainer2 .screen2 {
     visibility: hidden;
   }
 
+  .mainPS {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
  }
+
+
+
+@media (max-width: 1000px) {
+
+  .main2 {
+    overflow-x: hidden;
+  }
+
+  .pshp , .mxmhp {
+    display: flex;
+    flex-direction: column;
+  }
+  .vssthp {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
+
 
 
  @media (max-width: 650px) {
@@ -457,7 +502,7 @@ p {
     visibility: visible;
   }
 
-  .psContainer , .designContainer , .galleryContainer1 , .galleryContainer2 {
+  .psContainer , .designContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -497,5 +542,9 @@ p {
     flex-direction: column-reverse;
   }
 
+  .psContainer .screen {
+    visibility: hidden;
+  }
 
+  
  }
