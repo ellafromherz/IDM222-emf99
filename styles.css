@@ -385,6 +385,7 @@ p {
     margin: 1rem 1rem 5rem 1rem;
     padding: 1rem;
     overflow-x: hidden;
+
   }
 
   .screen {
@@ -546,5 +547,5 @@ p {
     visibility: hidden;
   }
 
-  
+
  }
