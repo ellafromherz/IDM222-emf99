@@ -430,7 +430,7 @@ p {
    margin: 1rem 8rem 1rem 8rem;
    padding: 1rem;
   }
-  
+
   .mxmText {
     display: flex;
     justify-content: center;
@@ -572,7 +572,7 @@ p {
   }
 
   h3.skills {
-    font-size: 1.12;
+    font-size: 1.125rem;
   }
 
   .learnMore {
